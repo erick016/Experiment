@@ -1,0 +1,35 @@
+<html>
+<head>
+	<!-- 
+	by Michal Budzynski
+	http://michalbe.blogspot.com
+	http://twitter.com/michalbe
+	-->
+    <title>Simple game with HTML5 Canvas part 5</title>
+	<style>
+		body {
+			margin:0px;
+			padding:0px;
+			text-align:center;
+		}
+		
+		canvas{
+			outline:0;
+			border:1px solid #000;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+<canvas id='c'></canvas>
+
+<audio id="bounceSound">
+  <source src="bounce3.wav" type="audio/mpeg">
+  <!--<source src="../sounds/hamburger.ogg" type="audio/ogg" loop>-->
+</audio>
+
+<script src="requestAnimationFramePolyfill.js"></script>
+<script src="gameKeyboardB.js"></script>
+</body>
+</html>
